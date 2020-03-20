@@ -1,0 +1,41 @@
+body{
+	background: #2BC0E4;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul{
+	list-style: none;
+	padding-left: 0; 
+}
+
+
+ul li{
+	height: 40px;
+	line-height: 40px;
+}
+
+ul li:nth-child(2n){
+	background-color: rgb(247, 12, 66, 0.62);
+}
+
+h1{
+	width: 500px;
+	margin: 150px auto 50px auto;
+}
+
+div a{
+	width: 500px;
+	margin: 180px auto;
+}
+
+.glyphicon {
+	
+	padding-left: 5px;
+}
+#container{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+	width: 500px;
+	margin: 180px auto;
+	background-color: rgb(42, 53, 56, 0.25);
+}
