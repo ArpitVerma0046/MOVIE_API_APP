@@ -1,8 +1,11 @@
-var express = require("express");
-var app = express();
-var request = require("request");
+var express = require("express"),
+    app = express(),
+    request = require("request");
+    
+
 app.set("view engine", "ejs");
 app.use(express.static("public"));
+
 
 
 app.get("/", function(req, res){
